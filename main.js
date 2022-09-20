@@ -118,5 +118,8 @@ function animate() {
 
   renderer.render(scene, camera);
 }
-const port = process.env.PORT || 3000;
 animate();
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, function() {
+  console.log("Servidor escuchado en el puerto", PORT)
+})
