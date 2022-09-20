@@ -118,5 +118,5 @@ function animate() {
 
   renderer.render(scene, camera);
 }
-
+const port: 3000;
 animate();
